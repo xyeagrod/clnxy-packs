@@ -1,0 +1,40 @@
+{
+    "version":  1,
+    "packs":  [
+                  {
+                      "id":  "midnight-purple",
+                      "colorGroup":  "Fioletowy",
+                      "previews":  [
+                                       "packs/midnight-purple/preview.png"
+                                   ],
+                      "contains":  [
+                                       "Motyw Windows (kolory, dźwięki, kursory)",
+                                       "Tapeta",
+                                       "Preset paska zadań (TranslucentTB)"
+                                   ],
+                      "thumbnail":  "packs/midnight-purple/thumb.png",
+                      "instructionsText":  "1. Kliknij \"Zastosuj paczkę\".\r\n2. Jeśli nie masz TranslucentTB, zainstaluj go (przycisk w sekcji \"Wymaga\").\r\n3. Opcjonalnie zainstaluj Rainmeter, aby uzyskać widżety z podglądu.",
+                      "requires":  [
+                                       {
+                                           "url":  "https://github.com/TranslucentTB/TranslucentTB",
+                                           "name":  "TranslucentTB",
+                                           "note":  "Przezroczysty pasek",
+                                           "optional":  false
+                                       },
+                                       {
+                                           "url":  "https://www.rainmeter.net",
+                                           "name":  "Rainmeter",
+                                           "note":  "Widżety pulpitu",
+                                           "optional":  true
+                                       }
+                                   ],
+                      "name":  "Midnight Purple",
+                      "description":  "Ciemny fioletowy pulpit z przezroczystym paskiem zadań.",
+                      "version":  "1.0",
+                      "author":  "Xyea",
+                      "sizeBytes":  2122170,
+                      "package":  "dist/midnight-purple.zip",
+                      "sha256":  "f727007900ef5c8435fcf676e51fd0fa0013d8c2970a102e58f783c7095abd25"
+                  }
+              ]
+}

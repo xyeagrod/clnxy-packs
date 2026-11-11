@@ -1,0 +1,20 @@
+{
+  "id": "midnight-purple",
+  "name": "Midnight Purple",
+  "author": "Xyea",
+  "version": "1.0",
+  "description": "Ciemny fioletowy pulpit z przezroczystym paskiem zadań.",
+  "colorGroup": "Fioletowy",
+  "thumbnail": "thumb.png",
+  "previews": ["preview.png"],
+  "contains": [
+    "Motyw Windows (kolory, dźwięki, kursory)",
+    "Tapeta",
+    "Preset paska zadań (TranslucentTB)"
+  ],
+  "requires": [
+    { "name": "TranslucentTB", "url": "https://github.com/TranslucentTB/TranslucentTB", "optional": false, "note": "Przezroczysty pasek" },
+    { "name": "Rainmeter", "url": "https://www.rainmeter.net", "optional": true, "note": "Widżety pulpitu" }
+  ],
+  "instructions": "instructions.md"
+}
